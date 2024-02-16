@@ -1,0 +1,19 @@
+ul {
+    list-style-type: none;
+}
+
+.folder {
+    cursor: pointer;
+}
+
+.folder::before {
+    content: "📁 "     
+}
+
+.open::before {
+    content: "📂 "
+}
+
+.item::before {
+    content: "🗒 "
+}
